@@ -32,6 +32,6 @@ insert into labels values(3,'Label 3');
 insert into labels_products values(1, 1);
 insert into labels_products values(1, 2);
 insert into labels_products values(2, 2);
-insert into labels_products values(3, 3);
-insert into labels_products values(3, 3);
+insert into labels_products values(3, 1);
+insert into labels_products values(3, 2);
 insert into labels_products values(3, 3);
