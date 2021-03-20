@@ -57,7 +57,7 @@ removeTemporalFiles() {
 
 waitForNexusAPIBeReady() {
   attempt_counter=0
-  max_attempts=10
+  max_attempts=1000
   nexus_api_repositories="$nexus_api_base_url/repositories"
   printf '   ---> Waiting for Nexus API be ready (%s)' "$nexus_api_repositories"
 

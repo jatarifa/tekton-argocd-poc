@@ -20,7 +20,7 @@ spec:
         set -e
 
         git config --global user.email "youruser@email.com"
-        git config --global user.name "jaruizes"
+        git config --global user.name "jatarifa"
 
         git clone -b master $(params.url-gitops) gitops
         cd gitops/$(params.deployments-dir)
